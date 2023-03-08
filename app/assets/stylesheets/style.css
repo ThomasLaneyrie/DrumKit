@@ -1,0 +1,30 @@
+body{
+  margin-left:100px;
+  margin-right:100px;
+  background-image: url("../background.jpg");
+
+}
+
+.container{
+  display:flex;
+  justify-content:space-between;
+}
+
+.bouton{
+  border:solid 2px green;
+  padding:10px 20px;
+  background:#D1FFBD;
+}
+
+.playing{
+  color:blue;
+  transform:scale(1.1);
+  transition: all 0.07s; 
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
